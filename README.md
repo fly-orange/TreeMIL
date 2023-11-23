@@ -9,7 +9,7 @@
 <p align="center">
 <img src="./figure/model.png" width="1000">
 <br>
-	<em> Figure 2. The overall framework of TreeMIL. </em>
+	<em> Figure 1. The overall framework of TreeMIL. </em>
 </p>
 
 Our proposed framework, termed as **TreeMIL**, optimizes model by leveraging only weak supervision (i.e., instance-level anomaly labels, rather than point-level anomaly labels).
@@ -56,12 +56,26 @@ lengths
 python train.py
 ```
 
+#### Main results
+
+<p align="center">
+<img src="./figure/r1.jpg" width="1000">
+<br>
+	<em> Figure 2. Weak F1-score, dense F1-score, and IoU </em>
+</p>
+
+<p align="center">
+<img src="./figure/r2.jpg" width="1000">
+<br>
+	<em> Figure 3. Precision, recall, and AUC-ROC </em>
+</p>
+
 #### Anomaly scores map
 
 <p align="center">
 <img src="./figure/case.png" width="1000">
 <br>
-	<em> Figure 2. Both long and short collective anomalies can be captured by multi-scale nodes in the tree </em>
+	<em> Figure 4. Both long and short collective anomalies can be captured by multi-scale nodes in the tree </em>
 </p>
 
 
