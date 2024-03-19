@@ -1,6 +1,6 @@
-# TreeMIL 
+# TreeMIL
 
-
+This is the code of "TreeMIL: A Multi-instance Learning Framework for Time Series Anomaly Detection with Inexact Supervision" (IEEE ICASSP 2024)
 
 <!-- - This is the code of ["Weakly Supervised Temporal Anomaly Segmentation with Dynamic Time Warping"] -->
 
